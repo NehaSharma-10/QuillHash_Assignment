@@ -249,10 +249,12 @@ html {
 }
 
 .fa-caret-up {
-    display: none;
     color: white;
-    width: 32px;
-    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
     border-radius: 70px;
     background: #2D83EE 0% 0% no-repeat padding-box;
     opacity: 1;
