@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100vw;
+    height: auto;
+}
+
+.font-jost {
+    font-family: 'Jost', sans-serif;
+}
+
+.light-blue {
+    color: #2D83EE;
+}
+
+.mid-dark-heading {
+    color: #391400;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3),
+        0px -4px 10px rgba(255, 255, 255, 0.3);
+
+}
+
+.paragraph-text {
+    font-weight: 300;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #391400;
+    opacity: 1;
+}
+
+.sm-paragraph-text {
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #391400;
+    opacity: 1;
+}
+
+
+
+.small-blue-text {
+    font-weight: bold;
+    font-size: 16px;
+    color: #2D83EE;
+    font-family: 'Jost', sans-serif;
+}
+
+.leaf {
+    left: 1063px;
+    width: 17px;
+    height: 17px;
+    transform: matrix(0.99, -0.14, 0.14, 0.99, 0, 0);
+    background: #527EF5 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 10px #00000029;
+    opacity: 1;
+}
+
+.dark-brown {
+    color: #391400;
+}
+
+.nav-font {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.ethereum-icon {
+    font-size: 30px;
+}
+
+.custom-toggler,
+.navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.navbar {
+    background: #15306F 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+
+}
+
+.select-option-nav {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.nav-btn {
+    width: 181px;
+    height: 42px;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(254deg, #7184FD, #3F7AF0, #4F37EE);
+}
+
+.body-container {
+    background: #15306F 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+}
+
+.explore-btn {
+    margin: 10px;
+    width: 181px;
+    height: 42px;
+    border-radius: 10px;
+    color: white;
+    background: #132D6B 0% 0% no-repeat padding-box;
+    border: 1px solid #7184FD;
+
+}
+
+.partner-main-div {
+
+    background-color: #FFFFFF;
+    min-height: 100vh;
+}
+
+.latest-work-div {
+    background-image: linear-gradient(254deg, #15306F, #15306F, rgb(15, 13, 77), #15306F, #15306F, #15306F);
+
+    mix-blend-mode: multiply;
+    opacity: 1;
+}
+
+.crypto-coin {
+    color: white;
+    box-shadow: 3px 3px 6px #00000029;
+    border: 1px solid #E3E3E3;
+    border-radius: 28px;
+    opacity: 1;
+}
+
+.crypto-coin:hover {
+    border: 1px solid #2D83EE;
+    background-color: #2D83EE;
+    color: white;
+}
+
+.audit-btn {
+    color: white;
+    border: 1px solid #FFFFFF4B;
+    border-radius: 6px;
+    opacity: 1;
+    background-color: transparent;
+}
+
+.audit-text {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.white-block {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 32px 64px #3914000A;
+    border: 1px solid #2D83EE;
+    border-radius: 15px;
+    opacity: 1;
+    padding: 15px;
+    color: #2D83EE;
+}
+
+.blue-block {
+    background: #4A4BEE 0% 0% no-repeat padding-box;
+    box-shadow: 0px 32px 64px #3914000A;
+    border-radius: 15px;
+    opacity: 1;
+    padding: 15px;
+    color: white;
+
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+
+}
+
+.feature-box {
+    width: 35%;
+    position: relative;
+    border: 1px solid #2D83EE;
+    border-radius: 15px;
+    opacity: 1;
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    box-shadow: 5px 5px 15px #00000029;
+
+}
+.stackOs-text{
+    font-size: 15px;
+    color: #391400;
+    text-align: center;
+}
+.link-text {
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0px;
+    color: #2D83EE;
+    opacity: 1;
+    bottom: 10%;
+}
+
+.ques {
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #391400;
+    opacity: 1;
+}
+.inner-quest{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.ans-text{
+    /* padding: 10px; */
+}
+.fa-caret-down {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 70px;
+    background: #2D83EE 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.fa-caret-up {
+    display: none;
+    color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 70px;
+    background: #2D83EE 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* 
+#down-icon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#up-icon1{
+    display: block;
+}
+#up-icon2,
+#ans-text-2{
+    display: none;
+} */
+
+.ques-block {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 32px 64px #3914000A;
+    border: 1px solid #2D83EE;
+    border-radius: 6px 6px 0px 0px;
+    opacity: 1;
+}
+
+.blog-link {
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.blog-img {
+    width: 300px;
+    height: auto;
+}
+
+.blog-para {
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.blog-date {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+.hashing-bit-div {
+    width: 100vw;
+    height: auto;
+    background-image: linear-gradient(254deg, #15306F, #15306F, #15306F, rgb(15, 13, 77), #15306F, #15306F, #15306F);
+
+}
+
+.hashing-img {
+    width: 250px;
+}
+
+.hash-input {
+    background: #0000004D 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+    width: 55%;
+    height: 48px;
+    border: none;
+}
+
+.fa-check-circle {
+
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: white;
+    color: #29D089;
+    margin-right: 10px;
+}
+
+.back-img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/Union\ 3.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+    /* z-index: -1; */
+}
+
+.front-union4-img {
+    z-index: 1;
+    width: 230px;
+    opacity: 1;
+}
+
+.join-hands-div {
+    width: 75vw;
+    background: #2D83EE 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+}
+
+.apply-btn {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 9px #39140014;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.join-img {
+    width: 90%;
+}
+
+.footer-div {
+    background: #28293E 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.select-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    background-color: white;
+}
+
+#lang-id {
+    background-color: white;
+    border: none;
+}
+
+.footer-link {
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+
+    
+}
+.below-footer{
+    width: 100vw;
+   
+    background: #28293E 0% 0% no-repeat padding-box;
+   border-top: 1px solid grey;
+}
+
+@media (min-device-width: 300px) and (max-device-width: 1020px) {
+    .btn-div {
+        display: block;
+
+    }
+
+    .nav-btn {
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+}
